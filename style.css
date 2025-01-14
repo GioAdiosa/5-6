@@ -1,0 +1,544 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+
+}
+
+.centerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.navigationSpan {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.NavigationAnchors {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.anchorWithArrow {
+    display: flex;
+    gap: 4px;
+}
+
+.LogiNButton {
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    color: #414651;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 14px;
+    height: 40px;
+}
+
+.SignUpButton {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 8px;
+    background: #7F56D9;
+    padding: 10px 14px;
+    height: 40px;
+    border: none;
+}
+
+.rightSideNavigation {
+    display: flex;
+    gap: 12px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0px;
+    flex-wrap: wrap;
+}
+
+.navigationAnchorsDiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.leftSideNavigation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/*  First Section-------------------------- */
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.DEscriptionOfFirstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.dashboardAndFeatureDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 8px 12px 8px 8px;
+    max-width: 381px;
+    width: 100%;
+}
+
+
+.DAshboardDiv {
+    display: flex;
+    align-items: center;
+}
+
+.FeatureDiv {
+    display: flex;
+    gap: 6px;
+}
+
+.DAshboardDiv {
+    display: flex;
+    gap: 4px;
+}
+
+.FeatureDiv {
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 4px 8px;
+}
+
+.SpansfirsySectionFirstLine {
+    color: #414651;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+h1 {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.firstSectionParagraph {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 768px;
+    width: 100%;
+}
+
+.FirstSectionLeftButton {
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.demo {
+    color: #414651;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: #FFF;
+    border: none;
+}
+
+.FirstSectionRightButton {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 10px;
+    background: #7F56D9;
+    padding: 16px 24px;
+}
+
+.firstSectionButtons {
+    display: flex;
+    gap: 12px;
+}
+
+.gapper {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+/* Second Section-------- */
+.SecondSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.SecondSectionSpan {
+    color: #6941C6;
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.SectionTitle {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.SecondSectionParagraph {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.secondSectionLeftSideSpan {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.secondSectionLeftSideParagraph {
+    color: #535862;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 272px;
+    width: 100%;
+    text-align: center;
+}
+
+.secondSectionSides,
+.secondSectionLeftSideTextual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondSectionSides {
+    max-width: 320px;
+    width: 100%;
+    padding: 12px 24px;
+}
+
+.secondSectionInstruction {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vectorImg {
+    display: flex;
+    align-items: center;
+}
+
+.secondSectionLeftSideTextual {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.secondSectionSides {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ------------third Section----------- */
+
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.UpgradeSpan {
+    color: #7F56D9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.ThirdSectionParagraph {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.UpgradeSpan {
+    display: flex;
+    justify-content: center;
+}
+
+.cardsSpan {
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.cardPrice {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.subscription {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cardServiceParagraph {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cardsDifferentGap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.iconOfCArds {
+    max-width: 48px;
+    height: 48px;
+    width: 100%;
+}
+
+.service {
+    display: flex;
+    gap: 12px;
+}
+
+.CardsubsriptionsServices {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.cardsHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 32px 0px 32px;
+}
+
+.CardsubsriptionsServices {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px 32px 40px 32px;
+}
+
+.getStartedAchor {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 8px;
+    background: #7F56D9;
+    padding: 12px 18px;
+    max-width: 432px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.thirdSectionGetStarted {
+    padding: 32px;
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+}
+
+.SideCard {
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    display: flex;
+    flex-direction: column;
+    max-width: 496px;
+    width: 100%;
+}
+
+/* fourthSection------------- */
+
+.fourthSection {
+    border-radius: 24px;
+    background: #53389E;
+    height: 566px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fourthSectionParagraph {
+    max-width: 416px;
+    width: 100%;
+    height: 264px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.fourthSectionLeftSide {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.starAndDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nameAndProfession {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.name {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.Profession {
+    color: #E9D7FE;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ReneeWells {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.footerSpan {
+    color: #717680;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerNavigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
